@@ -1,3 +1,9 @@
+/*
+Kleebid kogu selle faili sisu browseri konsooli (F12 -> Console) olles sellel kalendri vaatega lehel.
+Kood vajutab iga 2 minuti tagant sellele "Kus saab kõige kiiremini eksamile?" ja võrdleb avaneva akna tulemust eelmisega.
+Kui on erinev teeb browser notificationi mis tuleb ka OS'is kella kõrvale (kui annad permissioni esimesel käivitamisel)
+Kui oled teisel tabil või browser minimized siis ei saa garanteerida, et power saver javascripti pausile ei pane.
+*/
 
 aTags = document.getElementsByTagName("a");
 searchText = "Kus saab kõige kiiremini eksamile?";
